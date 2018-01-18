@@ -4,11 +4,12 @@
   <link href="styles.css" rel="stylesheet">
 </head>
 <body ng-controller="mainCtrl">
-  {{name}}
-hello
+Hello {{name}}. Angular populated your name from the controller! Wohoo.
+<h1>My Friends</h1>
   <div ng-repeat='friend in friends'>
     {{friend}}
   </div>
+ 
 
   <input ng-model='newFriend'/>
   <button ng-click="addFriend()">Add</button>
@@ -18,3 +19,4 @@ hello
 <script src="./js/mainCtrl.js"></script>
 </body>
 </html>
+git  
